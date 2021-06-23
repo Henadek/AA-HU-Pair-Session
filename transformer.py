@@ -10,4 +10,4 @@ def matrix_transformer(x, y):
 a = [1,2,3]
 b = [4,5,6]
 
-matrix_transformer(a,b)
+print(matrix_transformer(a,b))

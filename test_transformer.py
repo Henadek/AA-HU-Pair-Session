@@ -29,7 +29,7 @@ class TestTransformer(unittest.TestCase):
 			self.assertIsInstance(j, int)
 
 	def testTransform(self):
-		x = [1,2,3]
+		x = [1,'2',3]
 		y = [2,4,6]
 		result = np.array([[1,2],[2,4],[3,6]])
 		np.testing.assert_array_equal(matrix_transformer(x,y),result)
